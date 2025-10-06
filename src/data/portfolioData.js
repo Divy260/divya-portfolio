@@ -1,18 +1,18 @@
 import { FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
 import { Mail, Code, Database, BrainCircuit, Wrench, GraduationCap, School, BriefcaseBusiness } from 'lucide-react';
- 
+
 export const portfolioData = {
   name: "Divya Matavalam",
   // IMPORTANT: Place your resume file in the /public folder of your project
   resumePdf: "/DM_BusinessDataEngineer.pdf",
- 
+
   contact: {
     email: "matavalam.divya2023@gmail.com",
     phone: "+13143350600", // For WhatsApp link
     linkedin: "https://www.linkedin.com/in/divya260/",
     github: "https://github.com/Divy260",
   },
- 
+
   navLinks: [
     { name: 'Home', id: 'home' },
     { name: 'About', id: 'about' },
@@ -21,27 +21,27 @@ export const portfolioData = {
     { name: 'Achievements', id: 'achievements' },
     { name: 'Contact', id: 'contact' },
   ],
- 
+
   hero: {
     title: "Divya Matavalam",
     subtitle: "Data Scientist | Data Engineer | Data Analyst",
     highlights: ["MS in Computer Science Graduate", "2+ Years of Experience", "Skilled in Python, SQL & Big Data"],
   },
- 
+
   about: {
     introduction: [
-        "I am a Master of Science in Computer Science graduate with two years of professional experience in data engineering and mainframe technologies. My background at Infosys involved developing and maintaining large-scale banking systems, where I honed my skills in batch processing, ETL optimization, and production support.",
-        "My expertise lies in Python, SQL, and big data technologies like Apache Spark and Hadoop, along with cloud platforms like AWS. I have a proven ability to build scalable data pipelines, transform complex datasets into actionable insights, and develop predictive models to solve real-world problems.",
-        "I am passionate about leveraging data to drive impactful decisions and am actively seeking a full-time position in Data Science or Data Engineering where I can contribute my analytical and technical skills.",
-        "As a former Project Lead and coordinator for student organizations, I have strong leadership and collaborative abilities, with experience managing teams and driving projects to successful completion."
+      "I am a Master of Science in Computer Science graduate with two years of professional experience in data engineering and mainframe technologies. My background at Infosys involved developing and maintaining large-scale banking systems, where I honed my skills in batch processing, ETL optimization, and production support.",
+      "My expertise lies in Python, SQL, and big data technologies like Apache Spark and Hadoop, along with cloud platforms like AWS. I have a proven ability to build scalable data pipelines, transform complex datasets into actionable insights, and develop predictive models to solve real-world problems.",
+      "I am passionate about leveraging data to drive impactful decisions and am actively seeking a full-time position in Data Science or Data Engineering where I can contribute my analytical and technical skills.",
+      "As a former Project Lead and coordinator for student organizations, I have strong leadership and collaborative abilities, with experience managing teams and driving projects to successful completion."
     ],
- 
+
     education: [
       { year: "2023-2025", degree: "MS, Computer Science", institute: "University of North Texas", grade: "3.6/4.0 GPA", IconComponent: GraduationCap },
       { year: "2015-2019", degree: "B.Tech, Electrical & Electronics Engineering", institute: "Jawaharlal Nehru Technological University Ananthapur", grade: "8.45/10.0 CGPA", IconComponent: GraduationCap },
       { year: "2013-2015", degree: "Class XII (BIEAP)", institute: "Sri Chaitanya Junior College", grade: "92.4", IconComponent: School },
       { year: "2012-2013", degree: "Class X (BSEAP)", institute: "Government High School", grade: "9.0/10.0 GPA", IconComponent: School },
-    ] 
+    ]
     ,
     skills: [
       { category: "Programming", items: ["Python", "SQL", "COBOL", "Java", "Shell", "JavaScript"], IconComponent: Code },
@@ -51,7 +51,7 @@ export const portfolioData = {
       { category: "Mainframe", items: ["JCL", "REXX", "TSO/ISPF", "Endevor", "CA7"], IconComponent: BriefcaseBusiness },
     ],
   },
- 
+
   experience: [
     {
       title: 'Data Analyst Intern (Project Lead)',
@@ -77,13 +77,13 @@ export const portfolioData = {
       ],
     },
   ],
- 
+
   projects: [
     {
       title: 'Distributed Flight Delay Analysis',
       description: 'Processed 700K+ American Airlines flight records using PySpark on Hadoop clusters to identify delay patterns. Built interactive dashboards using Power BI and D3.js to visualize trends.',
       techStack: ['PySpark', 'Hadoop', 'Hive', 'Power BI', 'D3.js', 'DAX'],
-      link: 'https://github.com/Divy260' 
+      link: 'https://github.com/Divy260'
     },
     {
       title: 'Predictive Modeling for Personalized Library Services',
@@ -95,7 +95,7 @@ export const portfolioData = {
       title: 'Real-Time Messaging Platform',
       description: 'Designed a full-stack messaging application with a normalized NoSQL schema in MongoDB. Engineered backend APIs in Node.js/Express.js to manage data integrity and role-based access.',
       techStack: ['MongoDB', 'Node.js', 'Express.js', 'NoSQL', 'API Design'],
-      link: 'https://github.com/Divy260' 
+      link: 'https://github.com/Divy260'
     },
     {
       title: 'Batch Job Simulation with JCL and COBOL',
@@ -103,8 +103,14 @@ export const portfolioData = {
       techStack: ['COBOL', 'JCL', 'Mainframe', 'VS Code'],
       link: 'https://github.com/Divy260'
     },
+    {
+      "title": "Smart Kiosk System for Campus Dining",
+      "description": "Designed and developed a smart pre-ordering system to enhance food service efficiency. Integrated voice-enabled features for quick reordering and streamlined the pickup process to reduce student wait times.",
+      "techStack": ["HTML", "CSS", "JavaScript", "JSON"],
+      "link": "https://github.com/Divy260/smart_kiosk"
+    },
   ],
- 
+
   achievements: {
     scholastic: [
       'Certification: IBM Data Engineering',
@@ -124,7 +130,7 @@ export const portfolioData = {
       'Decreased issue resolution time by 20% in a production support environment.',
     ],
   },
- 
+
   contactButtons: [
     { href: `https://www.linkedin.com/in/divya260/`, IconComponent: FaLinkedin, label: "LinkedIn", color: "text-teal-400", hover: "hover:bg-teal-700" },
     { href: `mailto:matavalam.divya2023@gmail.com`, IconComponent: Mail, label: "Email Me", color: "text-purple-400", hover: "hover:bg-purple-700" },
