@@ -7,7 +7,7 @@ export default defineConfig(({ command }) => {
   return {
     // Set the base path conditionally.
     // For 'serve' (development), it's '/', for 'build' (production), it's '/portfolio/'.
-    base: command === 'serve' ? '/' : '/portfolio/',
+    base: command === 'serve' ? '/' : '/divya-portfolio/',
     plugins: [
       react(),
       tailwindcss(),
